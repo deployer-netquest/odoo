@@ -7,17 +7,17 @@
 # Arma Gedonsky <armagedonsky@hot.ee>, 2017
 # Rivo Zängov <eraser@eraser.ee>, 2017
 # Marek Pontus, 2018
-# Eneli Õigus <enelioigus@gmail.com>, 2018
 # Egon Raamat <egon@avalah.ee>, 2018
 # Martin Trigaux, 2018
+# Eneli Õigus <enelioigus@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-27 11:56+0000\n"
+"POT-Creation-Date: 2019-01-03 15:07+0000\n"
 "PO-Revision-Date: 2017-09-20 10:24+0000\n"
-"Last-Translator: Martin Trigaux, 2018\n"
+"Last-Translator: Eneli Õigus <enelioigus@gmail.com>, 2019\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -440,11 +440,12 @@ msgstr "Ilmnes viga"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/chrome/abstract_web_client.js:188
+#: code:addons/web/static/src/js/chrome/abstract_web_client.js:190
 #, python-format
 msgid ""
 "An unknown CORS error occured. The error probably originates from a "
-"JavaScript file served from a different origin."
+"JavaScript file served from a different origin. (Opening your browser "
+"console might give you a hint on the error.)"
 msgstr ""
 
 #. module: web
@@ -3067,7 +3068,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:732
 #, python-format
 msgid "is"
-msgstr "o"
+msgstr "on"
 
 #. module: web
 #. openerp-web
@@ -3078,10 +3079,24 @@ msgstr "on pärat"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/chrome/search_filters.js:185
+#, python-format
+msgid "is after or equal"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/chrome/search_filters.js:184
 #, python-format
 msgid "is before"
 msgstr "on enne"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/chrome/search_filters.js:186
+#, python-format
+msgid "is before or equal"
+msgstr ""
 
 #. module: web
 #. openerp-web
